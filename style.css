@@ -141,10 +141,9 @@ body{
 }
 #experience span{
     color: salmon;
-    margin-right: 3px;
-    
+    margin-right: 3px;  
 }
-#experience div {
+.exp-div-1 {
     width: 460px;
     height: 500px;
     float: left;
@@ -167,9 +166,21 @@ body{
     margin-left: 104px;
 }
 #experience div p{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     margin-bottom: 15px;
+}
+.exp-div-2 {
+    width: 460px;
+    height: 500px;
+    float: left;
+    margin: 78px 61px 78px 120px;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 6px -3px 17px 14px grey;
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,#FA9772,#F76041);
+    border-image-slice: 1;
 }
 /* -------------------- foooter ------------------ */
 footer{
