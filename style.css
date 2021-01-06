@@ -11,8 +11,8 @@ body{
     width: 100%;
     height: 40px;
     padding: 30px 0px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
+    
     text-align: center;
     background-image: url(images/top-banner.png);
 }
@@ -23,15 +23,11 @@ body{
 }
 #nav-bar ul li a{
     text-decoration: none;
-    color: #070606;
+    color: snow;
+    background-color: rgb(4, 4, 7);
     font-family: 'Work Sans', sans-serif;
     padding: 10px;
     border-radius: 24px;
-}
-#nav-bar ul li a:hover{
-    background-color: rgb(4, 4, 7);
-    color: snow;
-    transition: .5s;
 }
 /* -------------------------- first section -------------------------- */
 #Welcome-sec{
@@ -50,12 +46,6 @@ body{
     font-size: 45px;
     line-height: 78px;
     padding-top: 22px;
-}
-.half-width h2 {
-    font-size: 30px;
-    margin: 31px 0px;
-    line-height: 42px;
-    font-family: 'Lato';
 }
 .half-width p {
     font-size: 26px;
@@ -85,13 +75,16 @@ body{
 /* ---------------- services section ---------------------*/
 #services{
     width: 100%;
-    height: 1350px;
+    height: 600px;
 }
 #services h1 {
     font-size: 35px;
     margin: 50px 0px 12px 0px;
     text-align: center;
     font-weight: bold;
+}
+#services span{
+    color: rgba(216, 51, 51, 0.787);
 }
 #services div {
     width: 300px;
@@ -122,70 +115,47 @@ body{
     width: 100%;
     background-position: right;  
     }
-#dream-sec .half-width h1,h2{
-        text-align: center;
+#dream-sec .half-width h1{
+        text-align: left;
         padding: 10px;
+        color: rgb(93,91,221)
 }
-    /* ---------------------------- experience section ----------------------- */
-    #experience{
-    height: 760px;
-    margin-bottom: 10px;
-    width: 100%;
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-#experience h1{
-    text-align: center;
-    font-size: 35px;    
-}
-#experience span{
-    color: salmon;
-    margin-right: 3px;  
-}
-.exp-div-1 {
-    width: 460px;
-    height: 500px;
-    float: left;
-    margin: 78px 61px 78px 120px;
-    border-radius: 3px;
-    padding: 10px;
-    box-shadow: 6px -3px 17px 14px grey;
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg,cyan,blue);
-    border-image-slice: 1;
-    border-radius: 5px;
-}
-#experience div h1{
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-#experience div img {
-    width: 50%;
-    margin-left: 104px;
-}
-#experience div p{
-    text-align: left;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.exp-div-2 {
-    width: 460px;
-    height: 500px;
-    float: left;
-    margin: 78px 61px 78px 120px;
-    border-radius: 3px;
-    padding: 10px;
-    box-shadow: 6px -3px 17px 14px grey;
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg,#FA9772,#F76041);
-    border-image-slice: 1;
-}
+    /* ---------------------------- work-inq section ----------------------- */
+    .work-wrapper {
+        background-image: url(images/Group_33094_1.png);
+        width: 900px;
+        height: 141px;
+        padding: 48px 74px;
+        margin: 50px 142px;
+    }
+    .work-wrapper h1 {
+        font-size: 40px;
+        color: white;
+        float: left;
+        margin-right: 50px;
+        margin: 55px;
+    }
+    .work-wrapper a {
+        text-decoration: none;
+        color: white;
+        padding: 16px;
+        background-color: orange;
+        border-radius: 5px;
+        text-align: right;
+        float: right;
+        margin-top: 57px;
+    }
 /* -------------------- foooter ------------------ */
 footer{
     width: 100%;
     color: gray;
     text-align: center;
     margin-bottom: 30px;
+}
+footer h1{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+footer h2{
+    color: rgb(66, 58, 180);
 }
