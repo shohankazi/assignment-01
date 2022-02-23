@@ -1,17 +1,20 @@
 /* first section css */
 section{
-    width: 1340px;
+    width: 1200px;
     height: 494px;
 }
+.container{
+    margin: 0px 0px 30px 70px;
+}
 .half-width {
-    width: 444px;
+    width: 50%;
     height: 490px;
     float: left;
-    margin: 0px 110px;
 }
-.half-width img{
+.half-width img {
     width: 426px;
-    float: right;
+    padding-left: 30%;
+    float: left;
 }
 .first-div-text{
     width: 550px;
@@ -59,6 +62,7 @@ section{
 }
 
 /* second section css */
+
 .second-sec-heading{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -70,18 +74,73 @@ span{
     color: #FFAD5A;
 }
 .mission-sec {
+    width: 100%;
     display: flex;
-    align-items: center;
-    width: 80%;
-    height: 290px;
-    margin-left: 5%;
-    background-color: aqua;
-    padding: 50px;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif; 
-    margin-right: 20%;
-    line-height: 20px;
 }
-.mission-div img {
-    width: 70px;
+.mission-div{
+    width:37%;
+    border: 1px solid rgb(231, 228, 228);
+    margin-right: 35px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.mission-div h2,p{
+    font-family: 'Poppins', sans-serif;
+}
+.mission-div img{
+    width: 30%;}
+    .first-div{
+        background-color: #4f9da621;
+    }
+.second-div{
+    background-color: #ff595930;
+}
+.third-div{
+    background-color: #FFF4D6    ;
+}
+/* third section css */
+.half-width-coding {
+    width: 50%;
+    height: 490px;
+    float: left;
+}
+#coding-img{
+    float: left;
+    padding: 0;
+    width: 70%;
+}
+#coding-div h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 30px;
+    color: #333333;
+}
+#coding-div p{
+    color: #3E3E3E;
+}
+/* fourth section */
+#coding-img-2{
+    width: 70%;
+    float: right;
+}
+footer{
+    width: auto;
+    height: 20%;
+    background-color: #0B0D17;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+footer span{
+    color: #FF5959;
+}
+footer h6{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
 }
